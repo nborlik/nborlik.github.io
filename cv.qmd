@@ -1,0 +1,27 @@
+---
+title: "CV"
+---
+
+<div class="cv-actions">
+
+<a href="files/Nicolas_Orlik_CV.pdf" target="_blank" class="cv-button">
+  <i class="bi bi-file-earmark-pdf"></i>
+  Open CV
+</a>
+
+<a href="files/Nicolas_Orlik_CV.pdf" download class="cv-button cv-button-outline">
+  <i class="bi bi-download"></i>
+  Download
+</a>
+
+</div>
+
+<div class="cv-container">
+
+<iframe
+  src="files/Nicolas_Orlik_CV.pdf"
+  class="cv-frame"
+  title="Nicolas B. Orlik CV">
+</iframe>
+
+</div>

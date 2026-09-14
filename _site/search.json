@@ -2,9 +2,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Nicolas B. Orlik",
+    "title": "Nicolas Benjamin Orlik",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "I am a PhD candidate at CREED at the University of Amsterdam. I studied psychology at the Rijksuniversiteit Groningen and economics at the Tinbergen Institute. In my PhD, I will focus on studying feedback mechanisms and confidence management by creating theoretically founded experiments. More generally, I am also interested in contract theory and political economy."
   },
   {
     "objectID": "about.html",
@@ -12,5 +12,61 @@
     "title": "About",
     "section": "",
     "text": "About this site"
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Nicolas B. Orlik",
+    "section": "",
+    "text": "My current research studies how information can be strategically provided when individuals hold biased beliefs about their own ability.\nSee my research →"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Nicolas B. Orlik",
+    "section": "Contact",
+    "text": "Contact\nUniversity of Amsterdam\nCREED · Amsterdam School of Economics\nEmail: your-email@uva.nl\nGitHub"
+  },
+  {
+    "objectID": "index.html#current-research",
+    "href": "index.html#current-research",
+    "title": "Nicolas B. Orlik",
+    "section": "Current Research",
+    "text": "Current Research\n\nConfidence Management\nMy current project studies how managers choose what information to provide when workers may hold biased beliefs about their own ability.\nRead more →"
+  },
+  {
+    "objectID": "index.html#confidence-management",
+    "href": "index.html#confidence-management",
+    "title": "Nicolas B. Orlik",
+    "section": "Confidence Management",
+    "text": "Confidence Management\nIn my first project I look at how Manager adjust their information disclosure policies when it could reveal overconfidence to their workers.\nRead more →"
+  },
+  {
+    "objectID": "index.html#nicolas-b.-orlik",
+    "href": "index.html#nicolas-b.-orlik",
+    "title": "Nicolas Benjamin Orlik",
+    "section": "",
+    "text": "I am a PhD candidate at CREED at the University of Amsterdam. I study feedback mechanisms and strategic information provision.\n\nRESEARCH INTERESTS\nBehavioral Economics\nExperimental Economics\nPolitical Economy"
+  },
+  {
+    "objectID": "index.html#nicolas-b.-orlik-phd-candidate-in-economics",
+    "href": "index.html#nicolas-b.-orlik-phd-candidate-in-economics",
+    "title": "Nicolas B. Orlik",
+    "section": "",
+    "text": "I am a PhD candidate at CREED at the University of Amsterdam. I study feedback mechanisms and strategic information provision.\n\nRESEARCH INTERESTS\nBehavioral Economics\nExperimental Economics\nPolitical Economy"
+  },
+  {
+    "objectID": "index.html#info",
+    "href": "index.html#info",
+    "title": "Nicolas Benjamin Orlik",
+    "section": "",
+    "text": "I am a PhD candidate at CREED at the University of Amsterdam. I studied psychology at the Rijksuniversiteit Groningen and economics at the Tinbergen Institute. Currently I am studying feedback mechanisms and confidence management, using theoretically founded experiments. More generally, I am interested in contract theory and political economy."
+  },
+  {
+    "objectID": "index.html#me",
+    "href": "index.html#me",
+    "title": "Nicolas Benjamin Orlik",
+    "section": "",
+    "text": "I am a PhD candidate at CREED at the University of Amsterdam. I studied psychology at the Rijksuniversiteit Groningen and economics at the Tinbergen Institute. In my PhD, I will focus on studying feedback mechanisms and confidence management by creating theoretically founded experiments. More generally, I am also interested in contract theory and political economy."
   }
 ]
