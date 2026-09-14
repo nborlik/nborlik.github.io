@@ -1,16 +1,37 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Nicolas B. Orlik",
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "My first PhD project extends my MPhil thesis on strategic information provision and overconfidence.\nMore information coming soon."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "research.html#confidence-management",
+    "href": "research.html#confidence-management",
+    "title": "Research",
     "section": "",
-    "text": "About this site"
+    "text": "My first PhD project extends my MPhil thesis on strategic information provision and overconfidence.\nMore information coming soon."
+  },
+  {
+    "objectID": "cv.html",
+    "href": "cv.html",
+    "title": "CV",
+    "section": "",
+    "text": "Open CV \n  Download"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nicolas Benjamin Orlik",
+    "section": "",
+    "text": "I am a PhD candidate at CREED at the University of Amsterdam. I studied psychology at the Rijksuniversiteit Groningen and economics at the Tinbergen Institute. In my PhD, I will focus on studying feedback mechanisms and confidence management by creating theoretically founded experiments. More generally, I am also interested in contract theory and political economy."
+  },
+  {
+    "objectID": "index.html#me",
+    "href": "index.html#me",
+    "title": "Nicolas Benjamin Orlik",
+    "section": "",
+    "text": "I am a PhD candidate at CREED at the University of Amsterdam. I studied psychology at the Rijksuniversiteit Groningen and economics at the Tinbergen Institute. In my PhD, I will focus on studying feedback mechanisms and confidence management by creating theoretically founded experiments. More generally, I am also interested in contract theory and political economy."
   }
 ]

@@ -1,1 +1,311 @@
-/* css styles */
+:root {
+  --accent: #4c7a78;
+  --text: #222222;
+  --white: #ffffff;
+}
+
+
+/* ---------- General ---------- */
+
+body {
+  background: var(--white);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+main {
+  max-width: none;
+  margin: 0;
+}
+
+.quarto-container {
+  max-width: none;
+}
+
+
+/* ---------- Navbar ---------- */
+
+.navbar {
+  background-color: var(--white);
+  border-bottom: 2px solid var(--accent);
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.navbar-brand {
+  color: var(--accent) !important;
+  font-weight: 600;
+}
+
+.navbar-nav .nav-link {
+  color: var(--text) !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: var(--accent) !important;
+}
+
+
+/* ---------- Hero ---------- */
+
+.hero {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+
+  display: grid;
+  grid-template-columns: 1.3fr 0.8fr;
+  gap: 5rem;
+  align-items: center;
+
+  min-height: calc(100vh - 80px);
+}
+
+.hero-main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-main h1 {
+  color: var(--accent);
+  font-size: clamp(3rem, 5vw, 4.7rem);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  margin-bottom: 0.5rem;
+}
+
+.hero-main h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 1.8rem;
+}
+
+.hero-main p {
+  max-width: 620px;
+}
+
+
+/* ---------- Research interests ---------- */
+
+.research-interests {
+  margin-top: 2rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--accent);
+  line-height: 1.8;
+}
+
+.research-interests strong {
+  color: var(--accent);
+  font-size: 0.8rem;
+  letter-spacing: 0.12em;
+}
+
+
+/* ---------- Photo ---------- */
+
+.profile-box {
+  border: 2px solid var(--accent);
+  padding: 1rem;
+}
+
+.profile-photo {
+  width: 100%;
+  display: block;
+  margin: 0;
+}
+
+/* ---------- Buttons ---------- */
+
+.hero-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 0.8rem;
+}
+
+.button-primary,
+.button-secondary {
+  display: inline-block;
+  padding: 0.65rem 1.2rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.button-primary {
+  background: var(--accent);
+  color: var(--white);
+  border: 1px solid var(--accent);
+}
+
+.button-primary:hover {
+  color: var(--white);
+  opacity: 0.85;
+}
+
+.button-secondary {
+  color: var(--accent);
+  border: 1px solid var(--accent);
+}
+
+.button-secondary:hover {
+  background: var(--accent);
+  color: var(--white);
+}
+
+
+/* ---------- Research ---------- */
+
+.research-section {
+  max-width: 1150px;
+  margin: 0 auto 5rem;
+  padding: 3rem 2rem;
+
+  border-top: 2px solid var(--accent);
+}
+
+.section-label {
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  margin-bottom: 1.5rem;
+}
+
+.research-section h2 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+
+.research-section a {
+  color: var(--accent);
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 800px) {
+
+  .hero {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin-top: 3rem;
+  }
+
+  .profile-box {
+    max-width: 450px;
+  }
+
+}
+
+/* ---------- Profile links ---------- */
+
+.profile-links {
+  border-top: 1px solid var(--accent);
+  margin-top: 1rem;
+  padding: 1rem 0.6rem 0.3rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.2rem;
+}
+
+.profile-links a {
+  color: var(--accent);
+  text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.profile-links a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Profile icons ---------- */
+
+.profile-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.profile-icons a {
+  width: 44px;
+  height: 44px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border: 1.5px solid var(--accent);
+  color: var(--accent);
+
+  font-size: 1.25rem;
+  text-decoration: none;
+
+  transition: all 0.2s ease;
+}
+
+.profile-icons a:hover {
+  background-color: var(--accent);
+  color: white;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+/* ---------- CV ---------- */
+
+.cv-actions {
+  display: flex;
+  gap: 0.8rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.cv-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  padding: 0.65rem 1rem;
+
+  background-color: var(--accent);
+  border: 1.5px solid var(--accent);
+  color: white;
+
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.cv-button:hover {
+  color: white;
+  opacity: 0.85;
+}
+
+.cv-button-outline {
+  background-color: white;
+  color: var(--accent);
+}
+
+.cv-button-outline:hover {
+  background-color: var(--accent);
+  color: white;
+}
+
+.cv-container {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.cv-frame {
+  width: 100%;
+  height: 1100px;
+  border: 1px solid #dddddd;
+}
+
+@media (max-width: 800px) {
+
+  .cv-frame {
+    height: 700px;
+  }
+
+}
