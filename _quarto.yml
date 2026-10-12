@@ -1,5 +1,7 @@
 project:
   type: website
+  resources:
+    - googlee3770916d4452f05.html   # Google Search Console verification, must sit at the site root
 
 website:
   title: "Nicolas Benjamin Orlik"
